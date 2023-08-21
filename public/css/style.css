@@ -1,0 +1,55 @@
+.main {
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: rgb(24, 39, 99);
+    color: white;
+
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+}
+
+.sidebar a:hover {
+    background-color: rgb(113, 128, 188);
+}
+.active{
+    background-color: rgb(113, 128, 188);
+    border-right: solid 5px rgb(255, 123, 0);
+}
+
+.card-data{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 20px 50px;
+    color: #fff;
+}
+
+.card-data.book{
+    background-color: teal;
+}
+.card-data.cat{
+    background-color: rgb(128, 58, 0);
+}
+.card-data.user{
+    background-color:purple;
+}
+
+.card-data i{
+    font-size: 60px;
+}
+
+.card-desc{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-count{
+    font-size: 30px;
+    font-weight: bold;
+}
